@@ -2,3 +2,17 @@ body{
     font-style:italic;
     font-family:'Times New Roman', Times, serif;
 }
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.center-image {
+    width: clamp(180px, 35vw, 360px);
+    height: auto;
+    display: block;
+}
