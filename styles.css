@@ -1,6 +1,8 @@
 body{
     font-style:italic;
     font-family:'Times New Roman', Times, serif;
+     animation-name: colour;
+   animation-duration: 4s;
 
 }
 
@@ -28,14 +30,23 @@ h1{
     font-size: 200px;
     color: blueviolet;
     animation:rotate 5s linear infinite;
+    
 
 }
 
 @keyframes rotate{
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+     from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes colour {
+  0%   {background-color: rgb(195, 157, 228);}
+  25%  {background-color: rgb(234, 149, 149);}
+  50%  {background-color: rgb(109, 212, 223);}
+  100% {background-color: rgb(249, 184, 113);}
 }
