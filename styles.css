@@ -50,3 +50,8 @@ h1{
   50%  {background-color: rgb(109, 212, 223);}
   100% {background-color: rgb(249, 184, 113);}
 }
+
+p{
+    font-size: 40px;
+    text-align: center;
+}
