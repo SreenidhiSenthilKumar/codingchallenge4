@@ -1,6 +1,7 @@
 body{
     font-style:italic;
     font-family:'Times New Roman', Times, serif;
+<<<<<<< HEAD
 }
 
 .page {
@@ -15,4 +16,8 @@ body{
     width: clamp(180px, 35vw, 360px);
     height: auto;
     display: block;
+=======
+    background-color:lightblue;
+    color:darkblue;
+>>>>>>> 7a853092c1ba4194115a551810735b1d7d1fe91d
 }
