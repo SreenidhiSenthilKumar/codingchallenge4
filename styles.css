@@ -19,5 +19,15 @@ body{
 =======
     background-color:lightblue;
     color:darkblue;
+<<<<<<< HEAD
 >>>>>>> 7a853092c1ba4194115a551810735b1d7d1fe91d
+=======
+}
+
+h1{
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200px;
+    color: blueviolet;
+>>>>>>> d60c934dd165c0fa42b2bc0a7a02ae93ba9fde3e
 }
